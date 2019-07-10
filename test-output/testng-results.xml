@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31539" started-at="2019-07-08T08:05:15Z" finished-at="2019-07-08T08:05:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31539" started-at="2019-07-08T08:05:15Z" finished-at="2019-07-08T08:05:46Z">
+      <class name="selenium.casestudy.Registration">
+        <test-method status="PASS" signature="chrome()[pri:0, instance:selenium.casestudy.Registration@1753acfe]" name="chrome" is-config="true" duration-ms="20121" started-at="2019-07-08T13:35:15Z" finished-at="2019-07-08T13:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+        <test-method status="PASS" signature="testRegistration()[pri:1, instance:selenium.casestudy.Registration@1753acfe]" name="testRegistration" duration-ms="9675" started-at="2019-07-08T13:35:35Z" finished-at="2019-07-08T13:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:selenium.casestudy.Registration@1753acfe]" name="getResult" is-config="true" duration-ms="1700" started-at="2019-07-08T13:35:45Z" finished-at="2019-07-08T13:35:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=Registration.testRegistration()[pri:1, instance:selenium.casestudy.Registration@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- selenium.casestudy.Registration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
